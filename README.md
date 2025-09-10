@@ -1,15 +1,32 @@
 # POLICY ITERATION ALGORITHM
 
 ## AIM
-Write the experiment AIM.
+The aim of this experiment is to implement the Policy Iteration Algorithm in Reinforcement Learning to determine the optimal policy and corresponding value function for a given environment. Policy Iteration combines iterative policy evaluation and policy improvement steps to achieve convergence towards an optimal policy.
 
 ## PROBLEM STATEMENT
-Explain the problem statement.
+In Reinforcement Learning, the agent interacts with an environment modeled as a Markov Decision Process (MDP).
+The challenge is to find an optimal policy that maximizes the long-term cumulative reward.
+Policy Iteration addresses this by:
 
+Evaluating the value of a given policy (Policy Evaluation).
+Improving the policy based on the evaluated value function (Policy Improvement).
+Repeating these steps until the policy converges to the optimal policy.
 ## POLICY ITERATION ALGORITHM
-Include the steps involved in policy iteration algorithm
-</br>
-</br>
+The steps involved in the Policy Iteration Algorithm are:
+
+Initialization
+
+Initialize an arbitrary policy π and value function V(s).
+Policy Evaluation
+
+For the current policy π, compute the value function V(s) for all states until convergence.
+Policy Improvement
+
+Update the policy by choosing actions that maximize the expected return using the current value function.
+Check for Convergence
+
+If the policy does not change (π′ = π), then the policy is optimal and the algorithm terminates.
+Otherwise, repeat steps 2 and 3.
 
 ## POLICY IMPROVEMENT FUNCTION
 ### Name :ALAN ZION H
@@ -44,16 +61,20 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 ```
 ## OUTPUT:
 ### 1. Policy, Value function and success rate for the Adversarial Policy
+<img width="786" height="729" alt="image" src="https://github.com/user-attachments/assets/4f9be5a2-8ad7-4422-9f70-10dc8eb0afe8" />
+<img width="618" height="326" alt="image" src="https://github.com/user-attachments/assets/475b08b2-6192-4527-a9b4-880618b4ac7f" />
 
 ### 2. Policy, Value function and success rate for the Improved Policy
-<img width="546" height="168" alt="image" src="https://github.com/user-attachments/assets/ce5a1594-97f5-4b77-ab1f-4b266b083116" />
+<img width="783" height="286" alt="image" src="https://github.com/user-attachments/assets/43ef3c46-7392-4f07-81c1-126b2ba64ee5" />
+<img width="892" height="161" alt="image" src="https://github.com/user-attachments/assets/730b3799-201a-48ae-99f9-e665ce6f748e" />
+<img width="650" height="308" alt="image" src="https://github.com/user-attachments/assets/8f040a0e-8b8a-48b3-b4ce-cbc6ee51b572" />
 
 ### 3. Policy, Value function and success rate after policy iteration
-<img width="587" height="197" alt="image" src="https://github.com/user-attachments/assets/65fffeae-6ceb-4082-81d0-86ed312fbef6" />
+<img width="690" height="231" alt="image" src="https://github.com/user-attachments/assets/bbf90a97-1202-4b60-851e-d53d31809d5e" />
+<img width="810" height="311" alt="image" src="https://github.com/user-attachments/assets/85878d90-e1a4-45bf-976f-bcf0bcaaa36f" />
+<img width="900" height="132" alt="image" src="https://github.com/user-attachments/assets/e13ab2e5-ab7d-4482-a04b-8a46ed3f0ba1" />
+<img width="729" height="254" alt="image" src="https://github.com/user-attachments/assets/2d2bdb1b-5931-4480-9b65-14fe6e2d3bd5" />
 
-<img width="704" height="43" alt="image" src="https://github.com/user-attachments/assets/69aa4b26-f49e-4321-b1c3-47eca001efa9" />
-
-<img width="640" height="169" alt="image" src="https://github.com/user-attachments/assets/d71bd737-fc36-4e3b-830b-e64a32281391" />
 
 
 ## RESULT:
