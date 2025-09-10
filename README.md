@@ -61,18 +61,23 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 ```
 ## OUTPUT:
 ### 1. Policy, Value function and success rate for the Adversarial Policy
-<img width="786" height="729" alt="image" src="https://github.com/user-attachments/assets/4f9be5a2-8ad7-4422-9f70-10dc8eb0afe8" />
-<img width="618" height="326" alt="image" src="https://github.com/user-attachments/assets/475b08b2-6192-4527-a9b4-880618b4ac7f" />
+<img width="813" height="731" alt="image" src="https://github.com/user-attachments/assets/95c83419-0ef1-456f-8da3-f39d671c468f" />
+<img width="560" height="182" alt="image" src="https://github.com/user-attachments/assets/2ccbcf36-c716-405f-82c5-5056757b7583" />
 
 ### 2. Policy, Value function and success rate for the Improved Policy
 <img width="783" height="286" alt="image" src="https://github.com/user-attachments/assets/43ef3c46-7392-4f07-81c1-126b2ba64ee5" />
+
 <img width="892" height="161" alt="image" src="https://github.com/user-attachments/assets/730b3799-201a-48ae-99f9-e665ce6f748e" />
+
 <img width="650" height="308" alt="image" src="https://github.com/user-attachments/assets/8f040a0e-8b8a-48b3-b4ce-cbc6ee51b572" />
 
 ### 3. Policy, Value function and success rate after policy iteration
 <img width="690" height="231" alt="image" src="https://github.com/user-attachments/assets/bbf90a97-1202-4b60-851e-d53d31809d5e" />
+
 <img width="810" height="311" alt="image" src="https://github.com/user-attachments/assets/85878d90-e1a4-45bf-976f-bcf0bcaaa36f" />
+
 <img width="900" height="132" alt="image" src="https://github.com/user-attachments/assets/e13ab2e5-ab7d-4482-a04b-8a46ed3f0ba1" />
+
 <img width="729" height="254" alt="image" src="https://github.com/user-attachments/assets/2d2bdb1b-5931-4480-9b65-14fe6e2d3bd5" />
 
 
